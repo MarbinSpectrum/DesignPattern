@@ -1,25 +1,32 @@
 #include "FluentBuilder.h"
 
-HtmlFluentBuilder::HtmlFluentBuilder(std::string root_name)
+FluentBuilder::operator HtmlElement()
 {
-	root.name = root_name;
+	return *root;
 }
 
-HtmlFluentBuilder& HtmlFluentBuilder::add_child(std::string child_name, std::string child_text)
+FluentBuilder::FluentBuilder(std::string root_name)
+{
+	root = new HtmlElement(root_name, "");
+}
+
+FluentBuilder::~FluentBuilder()
+{
+	if (root != NULL)
+	{
+		delete root;
+		root = NULL;
+	}
+}
+
+FluentBuilder* FluentBuilder::add_child(std::string child_name, std::string child_text)
 {
 	HtmlElement e(child_name, child_text);
-	root.elements.emplace_back(e);
-	return *this;
+	root->elements.emplace_back(e);
+	return this;
 }
 
-std::string HtmlFluentBuilder::str()
+std::string FluentBuilder::str() const
 {
-	return root.str();
-}
-
-void FluentBuilder::Run()
-{
-	HtmlFluentBuilder builder("ui");
-	builder.add_child("li", "hello").add_child("li", "world");
-	std::cout << builder.str() << std::endl;
+	return root->str();
 }

@@ -33,6 +33,9 @@
     <ClCompile Include="Builder Pattern\HtmlElement.cpp">
       <Filter>소스 파일\Builder Pattern</Filter>
     </ClCompile>
+    <ClCompile Include="Builder Pattern\BuilderPattern.cpp">
+      <Filter>소스 파일\Builder Pattern</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builder Pattern\BuilderScenario.h">
@@ -45,6 +48,9 @@
       <Filter>소스 파일\Builder Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Builder Pattern\HtmlElement.h">
+      <Filter>소스 파일\Builder Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder Pattern\BuilderPattern.h">
       <Filter>소스 파일\Builder Pattern</Filter>
     </ClInclude>
   </ItemGroup>

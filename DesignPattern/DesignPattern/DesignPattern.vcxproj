@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Builder Pattern\BuilderPattern.cpp" />
     <ClCompile Include="Builder Pattern\BuilderScenario.cpp" />
     <ClCompile Include="Builder Pattern\FluentBuilder.cpp" />
     <ClCompile Include="Builder Pattern\HtmlElement.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Builder Pattern\BuilderPattern.h" />
     <ClInclude Include="Builder Pattern\BuilderScenario.h" />
     <ClInclude Include="Builder Pattern\FluentBuilder.h" />
     <ClInclude Include="Builder Pattern\HtmlElement.h" />

@@ -6,18 +6,17 @@
 #include <iostream>
 #include "HtmlElement.h"
 
-struct HtmlSimpleBuilder
-{
-	HtmlElement root;
-
-	HtmlSimpleBuilder(std::string root_name);
-
-	void add_child(std::string child_name, std::string child_text);
-	std::string str();
-};
+class HtmlElement;
 
 class SimpleBuilder
 {
+private:
+	HtmlElement* root;
+
 public:
-	static void Run();
+	SimpleBuilder(std::string root_name);
+	~SimpleBuilder();
+
+	void		add_child(std::string child_name, std::string child_text);
+	std::string str() const;
 };

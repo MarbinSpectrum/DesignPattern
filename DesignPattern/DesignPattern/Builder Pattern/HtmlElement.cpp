@@ -1,12 +1,17 @@
 #include "HtmlElement.h"
 
+std::unique_ptr<FluentBuilder> HtmlElement::build(const std::string& root_name)
+{
+	return std::make_unique<FluentBuilder>(root_name);
+}
+
 HtmlElement::HtmlElement()
 {
 }
 
 HtmlElement::HtmlElement(const std::string& name, const std::string& text)
-	: name(name)
-	, text(text)
+: name(name)
+, text(text)
 {
 }
 
