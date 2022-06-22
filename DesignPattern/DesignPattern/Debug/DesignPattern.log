@@ -1,0 +1,10 @@
+﻿cl : 명령줄 warning D9025: '/std:c++20'을(를) '/std:c++latest'(으)로 재정의합니다.
+  BuilderScenario.cpp
+  FluentBuilder.cpp
+  HtmlElement.cpp
+D:\Program Files\Git\StudyDesignPattern\DesignPattern\DesignPattern\Builder Pattern\HtmlElement.cpp(18,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  SimpleBuilder.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
+     D:\Program Files\Git\StudyDesignPattern\DesignPattern\Debug\DesignPattern.lib 라이브러리 및 D:\Program Files\Git\StudyDesignPattern\DesignPattern\Debug\DesignPattern.exp 개체를 생성하고 있습니다.
+  DesignPattern.vcxproj -> D:\Program Files\Git\StudyDesignPattern\DesignPattern\Debug\DesignPattern.exe
