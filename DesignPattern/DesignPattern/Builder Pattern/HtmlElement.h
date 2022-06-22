@@ -6,17 +6,14 @@
 #include <iostream>
 #include "FluentBuilder.h"
 #include "SimpleBuilder.h"
-#include "BuilderScenario.h"
 
 class SimpleBuilder;
 class FluentBuilder;
-class BuilderScenario;
 
 class HtmlElement
 {
 	friend class SimpleBuilder;
 	friend class FluentBuilder;
-	friend class BuilderScenario;
 
 public:
 	std::string name;

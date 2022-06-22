@@ -142,18 +142,34 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Builder Pattern\BuilderPattern.cpp" />
-    <ClCompile Include="Builder Pattern\BuilderScenario.cpp" />
     <ClCompile Include="Builder Pattern\FluentBuilder.cpp" />
     <ClCompile Include="Builder Pattern\HtmlElement.cpp" />
     <ClCompile Include="Builder Pattern\SimpleBuilder.cpp" />
+    <ClCompile Include="Factory Pattern\Coffee.cpp" />
+    <ClCompile Include="Factory Pattern\CoffeeFactory.cpp" />
+    <ClCompile Include="Factory Pattern\DrinkFactory.cpp" />
+    <ClCompile Include="Factory Pattern\DrinkWithVolumeFactory.cpp" />
+    <ClCompile Include="Factory Pattern\FactoryClass.cpp" />
+    <ClCompile Include="Factory Pattern\FactoryMethod.cpp" />
+    <ClCompile Include="Factory Pattern\Tea.cpp" />
+    <ClCompile Include="Factory Pattern\TeaFactory.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builder Pattern\BuilderPattern.h" />
-    <ClInclude Include="Builder Pattern\BuilderScenario.h" />
     <ClInclude Include="Builder Pattern\FluentBuilder.h" />
     <ClInclude Include="Builder Pattern\HtmlElement.h" />
     <ClInclude Include="Builder Pattern\SimpleBuilder.h" />
+    <ClInclude Include="Factory Pattern\Coffee.h" />
+    <ClInclude Include="Factory Pattern\CoffeeFactory.h" />
+    <ClInclude Include="Factory Pattern\DrinkFactory.h" />
+    <ClInclude Include="Factory Pattern\DrinkWithVolumeFactory.h" />
+    <ClInclude Include="Factory Pattern\FactoryClass.h" />
+    <ClInclude Include="Factory Pattern\FactoryMethod.h" />
+    <ClInclude Include="Factory Pattern\HotDrink.h" />
+    <ClInclude Include="Factory Pattern\HotDrinkFactory.h" />
+    <ClInclude Include="Factory Pattern\Tea.h" />
+    <ClInclude Include="Factory Pattern\TeaFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
