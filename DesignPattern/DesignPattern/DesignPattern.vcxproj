@@ -72,6 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Program Files\Git\StudyDesignPattern\DesignPattern\Vendor\boost_1_79_0;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -94,6 +95,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Program Files\Git\StudyDesignPattern\DesignPattern\Vendor\boost_1_79_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -154,6 +156,10 @@
     <ClCompile Include="Factory Pattern\Tea.cpp" />
     <ClCompile Include="Factory Pattern\TeaFactory.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Prototype Pattern\CopyConstructor\CopyConstructor.cpp" />
+    <ClCompile Include="Prototype Pattern\PrototypeFactory\PrototypeFactory.cpp" />
+    <ClCompile Include="Prototype Pattern\Serialization\Serialzation.cpp" />
+    <ClCompile Include="Prototype Pattern\SimpleCopy\SimpleCopy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builder Pattern\BuilderPattern.h" />
@@ -170,6 +176,11 @@
     <ClInclude Include="Factory Pattern\HotDrinkFactory.h" />
     <ClInclude Include="Factory Pattern\Tea.h" />
     <ClInclude Include="Factory Pattern\TeaFactory.h" />
+    <ClInclude Include="Prototype Pattern\CopyConstructor\CopyConstructor.h" />
+    <ClInclude Include="Prototype Pattern\PrototypeFactory\PrototypeFactory.h" />
+    <ClInclude Include="Prototype Pattern\Serialization\Serialzation.h" />
+    <ClInclude Include="Prototype Pattern\SimpleCopy\SimpleCopy.h" />
+    <ClInclude Include="StudyUtility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

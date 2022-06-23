@@ -28,6 +28,21 @@
     <Filter Include="소스 파일\Factory Pattern\Function Factory">
       <UniqueIdentifier>{cb486738-ee23-4e1a-b0a2-ce7d3219272c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Prototype Pattern">
+      <UniqueIdentifier>{e20e066e-3b99-464b-adb5-3106fc032252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Prototype Pattern\CopyConstructor">
+      <UniqueIdentifier>{4057c67d-d434-43e5-88c2-a5fbeb9e693e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Prototype Pattern\SimpleCopy">
+      <UniqueIdentifier>{a4c3d2b7-c311-4e8d-95c7-a28961cf03af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Prototype Pattern\Serialization">
+      <UniqueIdentifier>{72a74a44-c495-46a0-8217-6f3222320f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Prototype Pattern\PrototypeFactory">
+      <UniqueIdentifier>{9e1b254c-fc0f-4374-aa0a-ec35bd73c055}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -68,6 +83,18 @@
     </ClCompile>
     <ClCompile Include="Factory Pattern\DrinkFactory.cpp">
       <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype Pattern\CopyConstructor\CopyConstructor.cpp">
+      <Filter>소스 파일\Prototype Pattern\CopyConstructor</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype Pattern\SimpleCopy\SimpleCopy.cpp">
+      <Filter>소스 파일\Prototype Pattern\SimpleCopy</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype Pattern\Serialization\Serialzation.cpp">
+      <Filter>소스 파일\Prototype Pattern\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype Pattern\PrototypeFactory\PrototypeFactory.cpp">
+      <Filter>소스 파일\Prototype Pattern\PrototypeFactory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +139,21 @@
     </ClInclude>
     <ClInclude Include="Factory Pattern\DrinkFactory.h">
       <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyUtility.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype Pattern\CopyConstructor\CopyConstructor.h">
+      <Filter>소스 파일\Prototype Pattern\CopyConstructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype Pattern\SimpleCopy\SimpleCopy.h">
+      <Filter>소스 파일\Prototype Pattern\SimpleCopy</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype Pattern\Serialization\Serialzation.h">
+      <Filter>소스 파일\Prototype Pattern\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype Pattern\PrototypeFactory\PrototypeFactory.h">
+      <Filter>소스 파일\Prototype Pattern\PrototypeFactory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
