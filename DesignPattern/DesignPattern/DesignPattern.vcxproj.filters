@@ -19,15 +19,6 @@
     <Filter Include="소스 파일\Factory Pattern">
       <UniqueIdentifier>{eaa57030-6bcf-4d22-bacf-c8b94c293450}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Factory Pattern\Drink">
-      <UniqueIdentifier>{8f82d3be-08c8-4175-82d7-264f730cd943}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Factory Pattern\Abstract Factory">
-      <UniqueIdentifier>{5c939749-360e-4390-98c2-3e5e08b79238}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Factory Pattern\Function Factory">
-      <UniqueIdentifier>{cb486738-ee23-4e1a-b0a2-ce7d3219272c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Prototype Pattern">
       <UniqueIdentifier>{e20e066e-3b99-464b-adb5-3106fc032252}</UniqueIdentifier>
     </Filter>
@@ -43,46 +34,40 @@
     <Filter Include="소스 파일\Prototype Pattern\PrototypeFactory">
       <UniqueIdentifier>{9e1b254c-fc0f-4374-aa0a-ec35bd73c055}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Singleton Pattern">
+      <UniqueIdentifier>{0cf6bacb-a6e7-4236-9adf-e8fab5de95ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Singleton Pattern\ClassicSingleton">
+      <UniqueIdentifier>{fa47342f-7fd9-4ab6-b261-18cbae74d4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Factory Pattern\Abstract Factory">
+      <UniqueIdentifier>{5c939749-360e-4390-98c2-3e5e08b79238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Factory Pattern\Factory Method">
+      <UniqueIdentifier>{0153bb6a-8ad0-486d-840b-e66d01166d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Factory Pattern\Factory Class">
+      <UniqueIdentifier>{f74b32dd-c750-43d2-b8e5-78d83a733b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Factory Pattern\Functional Factory">
+      <UniqueIdentifier>{cb486738-ee23-4e1a-b0a2-ce7d3219272c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Builder Pattern\Simple Builder">
+      <UniqueIdentifier>{6de41382-332a-46c9-833e-5f60abd67947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Builder Pattern\Fluent Builder">
+      <UniqueIdentifier>{79ccad14-9658-4b01-b645-35ca9c9ed2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Builder Pattern\Builder Pattern">
+      <UniqueIdentifier>{2b6fd140-fe8a-4b6b-8f46-ffbf38b7b6bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Builder Pattern\SimpleBuilder.cpp">
-      <Filter>소스 파일\Builder Pattern</Filter>
-    </ClCompile>
-    <ClCompile Include="Builder Pattern\FluentBuilder.cpp">
-      <Filter>소스 파일\Builder Pattern</Filter>
-    </ClCompile>
     <ClCompile Include="Builder Pattern\HtmlElement.cpp">
       <Filter>소스 파일\Builder Pattern</Filter>
-    </ClCompile>
-    <ClCompile Include="Builder Pattern\BuilderPattern.cpp">
-      <Filter>소스 파일\Builder Pattern</Filter>
-    </ClCompile>
-    <ClCompile Include="Factory Pattern\FactoryMethod.cpp">
-      <Filter>소스 파일\Factory Pattern</Filter>
-    </ClCompile>
-    <ClCompile Include="Factory Pattern\FactoryClass.cpp">
-      <Filter>소스 파일\Factory Pattern</Filter>
-    </ClCompile>
-    <ClCompile Include="Factory Pattern\Coffee.cpp">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClCompile>
-    <ClCompile Include="Factory Pattern\Tea.cpp">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClCompile>
-    <ClCompile Include="Factory Pattern\CoffeeFactory.cpp">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClCompile>
-    <ClCompile Include="Factory Pattern\TeaFactory.cpp">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClCompile>
-    <ClCompile Include="Factory Pattern\DrinkWithVolumeFactory.cpp">
-      <Filter>소스 파일\Factory Pattern\Function Factory</Filter>
-    </ClCompile>
-    <ClCompile Include="Factory Pattern\DrinkFactory.cpp">
-      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
     </ClCompile>
     <ClCompile Include="Prototype Pattern\CopyConstructor\CopyConstructor.cpp">
       <Filter>소스 파일\Prototype Pattern\CopyConstructor</Filter>
@@ -96,49 +81,46 @@
     <ClCompile Include="Prototype Pattern\PrototypeFactory\PrototypeFactory.cpp">
       <Filter>소스 파일\Prototype Pattern\PrototypeFactory</Filter>
     </ClCompile>
+    <ClCompile Include="Singleton Pattern\ClassicSingleton\ClassicSingleton.cpp">
+      <Filter>소스 파일\Singleton Pattern\ClassicSingleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory Pattern\Abstrat Factory\CoffeeFactory.cpp">
+      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory Pattern\Abstrat Factory\DrinkFactory.cpp">
+      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory Pattern\Abstrat Factory\TeaFactory.cpp">
+      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory Pattern\Coffee.cpp">
+      <Filter>소스 파일\Factory Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory Pattern\Tea.cpp">
+      <Filter>소스 파일\Factory Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory Pattern\Factory Class\FactoryClass.cpp">
+      <Filter>소스 파일\Factory Pattern\Factory Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory Pattern\Factory Method\FactoryMethod.cpp">
+      <Filter>소스 파일\Factory Pattern\Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory Pattern\Funtional Factory\DrinkWithVolumeFactory.cpp">
+      <Filter>소스 파일\Factory Pattern\Functional Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder Pattern\Builder Pattern\BuilderPattern.cpp">
+      <Filter>소스 파일\Builder Pattern\Builder Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder Pattern\Fluent Builder\FluentBuilder.cpp">
+      <Filter>소스 파일\Builder Pattern\Fluent Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder Pattern\Simple Builder\SimpleBuilder.cpp">
+      <Filter>소스 파일\Builder Pattern\Simple Builder</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Builder Pattern\SimpleBuilder.h">
-      <Filter>소스 파일\Builder Pattern</Filter>
-    </ClInclude>
-    <ClInclude Include="Builder Pattern\FluentBuilder.h">
-      <Filter>소스 파일\Builder Pattern</Filter>
-    </ClInclude>
     <ClInclude Include="Builder Pattern\HtmlElement.h">
       <Filter>소스 파일\Builder Pattern</Filter>
-    </ClInclude>
-    <ClInclude Include="Builder Pattern\BuilderPattern.h">
-      <Filter>소스 파일\Builder Pattern</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\FactoryMethod.h">
-      <Filter>소스 파일\Factory Pattern</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\FactoryClass.h">
-      <Filter>소스 파일\Factory Pattern</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\Coffee.h">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\HotDrink.h">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\Tea.h">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\HotDrinkFactory.h">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\CoffeeFactory.h">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\TeaFactory.h">
-      <Filter>소스 파일\Factory Pattern\Drink</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\DrinkWithVolumeFactory.h">
-      <Filter>소스 파일\Factory Pattern\Function Factory</Filter>
-    </ClInclude>
-    <ClInclude Include="Factory Pattern\DrinkFactory.h">
-      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
     </ClInclude>
     <ClInclude Include="StudyUtility.h">
       <Filter>소스 파일</Filter>
@@ -154,6 +136,48 @@
     </ClInclude>
     <ClInclude Include="Prototype Pattern\PrototypeFactory\PrototypeFactory.h">
       <Filter>소스 파일\Prototype Pattern\PrototypeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton Pattern\ClassicSingleton\ClassicSingleton.h">
+      <Filter>소스 파일\Singleton Pattern\ClassicSingleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Abstrat Factory\CoffeeFactory.h">
+      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Abstrat Factory\DrinkFactory.h">
+      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Abstrat Factory\HotDrinkFactory.h">
+      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Abstrat Factory\TeaFactory.h">
+      <Filter>소스 파일\Factory Pattern\Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Coffee.h">
+      <Filter>소스 파일\Factory Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\HotDrink.h">
+      <Filter>소스 파일\Factory Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Tea.h">
+      <Filter>소스 파일\Factory Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Factory Class\FactoryClass.h">
+      <Filter>소스 파일\Factory Pattern\Factory Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Factory Method\FactoryMethod.h">
+      <Filter>소스 파일\Factory Pattern\Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Funtional Factory\DrinkWithVolumeFactory.h">
+      <Filter>소스 파일\Factory Pattern\Functional Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder Pattern\Builder Pattern\BuilderPattern.h">
+      <Filter>소스 파일\Builder Pattern\Builder Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder Pattern\Fluent Builder\FluentBuilder.h">
+      <Filter>소스 파일\Builder Pattern\Fluent Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder Pattern\Simple Builder\SimpleBuilder.h">
+      <Filter>소스 파일\Builder Pattern\Simple Builder</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

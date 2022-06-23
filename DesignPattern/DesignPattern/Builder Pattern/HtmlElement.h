@@ -4,8 +4,8 @@
 #include <vector>
 #include <format>
 #include <iostream>
-#include "FluentBuilder.h"
-#include "SimpleBuilder.h"
+#include "Fluent Builder/FluentBuilder.h"
+#include "Simple Builder/SimpleBuilder.h"
 
 class SimpleBuilder;
 class FluentBuilder;

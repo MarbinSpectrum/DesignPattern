@@ -143,43 +143,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Builder Pattern\BuilderPattern.cpp" />
-    <ClCompile Include="Builder Pattern\FluentBuilder.cpp" />
+    <ClCompile Include="Builder Pattern\Builder Pattern\BuilderPattern.cpp" />
+    <ClCompile Include="Builder Pattern\Fluent Builder\FluentBuilder.cpp" />
     <ClCompile Include="Builder Pattern\HtmlElement.cpp" />
-    <ClCompile Include="Builder Pattern\SimpleBuilder.cpp" />
+    <ClCompile Include="Builder Pattern\Simple Builder\SimpleBuilder.cpp" />
+    <ClCompile Include="Factory Pattern\Abstrat Factory\CoffeeFactory.cpp" />
+    <ClCompile Include="Factory Pattern\Abstrat Factory\DrinkFactory.cpp" />
+    <ClCompile Include="Factory Pattern\Abstrat Factory\TeaFactory.cpp" />
     <ClCompile Include="Factory Pattern\Coffee.cpp" />
-    <ClCompile Include="Factory Pattern\CoffeeFactory.cpp" />
-    <ClCompile Include="Factory Pattern\DrinkFactory.cpp" />
-    <ClCompile Include="Factory Pattern\DrinkWithVolumeFactory.cpp" />
-    <ClCompile Include="Factory Pattern\FactoryClass.cpp" />
-    <ClCompile Include="Factory Pattern\FactoryMethod.cpp" />
+    <ClCompile Include="Factory Pattern\Factory Class\FactoryClass.cpp" />
+    <ClCompile Include="Factory Pattern\Factory Method\FactoryMethod.cpp" />
+    <ClCompile Include="Factory Pattern\Funtional Factory\DrinkWithVolumeFactory.cpp" />
     <ClCompile Include="Factory Pattern\Tea.cpp" />
-    <ClCompile Include="Factory Pattern\TeaFactory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Prototype Pattern\CopyConstructor\CopyConstructor.cpp" />
     <ClCompile Include="Prototype Pattern\PrototypeFactory\PrototypeFactory.cpp" />
     <ClCompile Include="Prototype Pattern\Serialization\Serialzation.cpp" />
     <ClCompile Include="Prototype Pattern\SimpleCopy\SimpleCopy.cpp" />
+    <ClCompile Include="Singleton Pattern\ClassicSingleton\ClassicSingleton.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Builder Pattern\BuilderPattern.h" />
-    <ClInclude Include="Builder Pattern\FluentBuilder.h" />
+    <ClInclude Include="Builder Pattern\Builder Pattern\BuilderPattern.h" />
+    <ClInclude Include="Builder Pattern\Fluent Builder\FluentBuilder.h" />
     <ClInclude Include="Builder Pattern\HtmlElement.h" />
-    <ClInclude Include="Builder Pattern\SimpleBuilder.h" />
+    <ClInclude Include="Builder Pattern\Simple Builder\SimpleBuilder.h" />
+    <ClInclude Include="Factory Pattern\Abstrat Factory\CoffeeFactory.h" />
+    <ClInclude Include="Factory Pattern\Abstrat Factory\DrinkFactory.h" />
+    <ClInclude Include="Factory Pattern\Abstrat Factory\HotDrinkFactory.h" />
+    <ClInclude Include="Factory Pattern\Abstrat Factory\TeaFactory.h" />
     <ClInclude Include="Factory Pattern\Coffee.h" />
-    <ClInclude Include="Factory Pattern\CoffeeFactory.h" />
-    <ClInclude Include="Factory Pattern\DrinkFactory.h" />
-    <ClInclude Include="Factory Pattern\DrinkWithVolumeFactory.h" />
-    <ClInclude Include="Factory Pattern\FactoryClass.h" />
-    <ClInclude Include="Factory Pattern\FactoryMethod.h" />
+    <ClInclude Include="Factory Pattern\Factory Class\FactoryClass.h" />
+    <ClInclude Include="Factory Pattern\Factory Method\FactoryMethod.h" />
+    <ClInclude Include="Factory Pattern\Funtional Factory\DrinkWithVolumeFactory.h" />
     <ClInclude Include="Factory Pattern\HotDrink.h" />
-    <ClInclude Include="Factory Pattern\HotDrinkFactory.h" />
     <ClInclude Include="Factory Pattern\Tea.h" />
-    <ClInclude Include="Factory Pattern\TeaFactory.h" />
     <ClInclude Include="Prototype Pattern\CopyConstructor\CopyConstructor.h" />
     <ClInclude Include="Prototype Pattern\PrototypeFactory\PrototypeFactory.h" />
     <ClInclude Include="Prototype Pattern\Serialization\Serialzation.h" />
     <ClInclude Include="Prototype Pattern\SimpleCopy\SimpleCopy.h" />
+    <ClInclude Include="Singleton Pattern\ClassicSingleton\ClassicSingleton.h" />
     <ClInclude Include="StudyUtility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
