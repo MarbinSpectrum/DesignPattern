@@ -3,6 +3,8 @@
 
 namespace Monostate
 {
+	int Printer::id = 0;
+
 	int Printer::get_id() const
 	{
 		return id;
