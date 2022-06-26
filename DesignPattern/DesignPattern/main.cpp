@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <iostream>
-#include "Decorator Pattern/DynamicDecorator/DynamicDecorator.h"
+#include "Decorator Pattern/FunctionalDecorator/FunctionalDecorator.h"
 int main()
 {
-	DynamicDecorator::DynamicDecorator::Run();
+	FunctionalDecorator::FunctionalDecorator::Run();
 }

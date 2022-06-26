@@ -48,6 +48,8 @@ namespace DynamicDecorator
 	void DynamicDecorator::Run()
 	{
 		//동적 데커레이터로 투명도와 색상을 가진 원 객체를 만들었다.
+		//동적으로 필요할때마다 코드로 추가
+
 		Circle circle{ 23 };
 		ColoredShape coloredShape{ circle, "red" };
 		TransparentShape transShape{ coloredShape, 85 };
