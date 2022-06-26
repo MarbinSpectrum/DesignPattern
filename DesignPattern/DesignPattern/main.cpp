@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <iostream>
-#include "Decorator Pattern/FunctionalDecorator/FunctionalDecorator.h"
+#include "Facade Pattern/FacadePattern.h"
+
 int main()
 {
-	FunctionalDecorator::FunctionalDecorator::Run();
+	FacadePattern::FacadePattern::Run();
 }
