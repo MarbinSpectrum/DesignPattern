@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <iostream>
-#include "Facade Pattern/FacadePattern.h"
+#include "Flyweight Pattern/Flyweight.h"
 
 int main()
 {
-	FacadePattern::FacadePattern::Run();
+	Flyweight::FlyweightPattern::Run();
 }
