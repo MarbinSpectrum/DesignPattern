@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <iostream>
-#include "Flyweight Pattern/Flyweight.h"
+#include "Chain of Responsibility Pattern/BrokerChain/BrokerChain.h"
 
 int main()
 {
-	Flyweight::FlyweightPattern::Run();
+	BrokerChain::BrokerChain::Run();
 }
