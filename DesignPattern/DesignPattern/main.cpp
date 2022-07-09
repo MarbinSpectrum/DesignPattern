@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <iostream>
-#include "Interpreter Pattern/InterpreterPattern.h"
+#include "Iterator Pattern/IteratorPattern.h"
 
 int main()
 {
-	InterpreterPattern::InterpreterPattern::Run();
+	IteratorPattern::IteratorPattern::Run();
 }
