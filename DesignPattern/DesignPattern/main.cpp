@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <iostream>
-#include "Mediator Pattern/MediatorPattern.h"
+#include "Memento Pattern/MementoPattern.h"
 int main()
 {
-	MediatorPattern::MediatorPattern::Run();
+	MementoPattern::MementoPattern::Run();
 }
