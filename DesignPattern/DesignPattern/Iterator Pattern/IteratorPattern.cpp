@@ -9,6 +9,7 @@ namespace IteratorPattern
 	: value(value)
 	, left(nullptr)
 	, right(nullptr)
+	, parent(nullptr)
 	, tree(nullptr)
 	{
 	}
@@ -18,6 +19,7 @@ namespace IteratorPattern
 	: value(value)
 	, left(left)
 	, right(right)
+	, parent(nullptr)
 	, tree(nullptr)
 	{
 		this->left->tree = tree;
@@ -50,7 +52,7 @@ namespace IteratorPattern
 	template<typename T>
 	template<typename U>
 	BinaryTree<T>::PreOrderIterator<U>::PreOrderIterator(Node<U>* curent)
-		: curent(curent)
+	: curent(curent)
 	{
 	}
 
@@ -83,7 +85,7 @@ namespace IteratorPattern
 		else
 		{
 			Node<T>* p = curent->parent;
-			while (p && curent == p->right)
+			while (p != nullptr && curent == p->right)
 			{
 				curent = p;
 				p = p->parent;
@@ -133,6 +135,7 @@ namespace IteratorPattern
 
 		for (auto it = family.begin(); it != family.end(); ++it)
 		{
+			(*it);
 			std::cout << (*it).value << std::endl;
 		}
 	}

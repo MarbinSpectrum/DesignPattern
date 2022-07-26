@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <iostream>
-#include "Iterator Pattern/IteratorPattern.h"
-
+#include "Mediator Pattern/MediatorPattern.h"
 int main()
 {
-	IteratorPattern::IteratorPattern::Run();
+	MediatorPattern::MediatorPattern::Run();
 }
