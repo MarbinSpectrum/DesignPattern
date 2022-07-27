@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <iostream>
-#include "Observer Pattern/ObserverPattern.h"
+#include "State Pattern/StatePattern.h"
 int main()
 {
-	ObserverPattern::ObserverPattern::Run();
+	StatePattern::StatePattern::Run();
 }
