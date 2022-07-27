@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <iostream>
-#include "Memento Pattern/MementoPattern.h"
+#include "Observer Pattern/ObserverPattern.h"
 int main()
 {
-	MementoPattern::MementoPattern::Run();
+	ObserverPattern::ObserverPattern::Run();
 }
