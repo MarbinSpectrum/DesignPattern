@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <iostream>
-#include "State Pattern/StatePattern.h"
+#include "Strategy Pattern/StaticStrategy/StaticStrategy.h"
 int main()
 {
-	StatePattern::StatePattern::Run();
+	StaticStrategy::StaticStrategy::Run();
 }
