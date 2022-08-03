@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <iostream>
-#include "Template Method Pattern/TemplateMethodPattern.h"
+#include "Visitor Pattern//VisitorPattern.h"
 int main()
 {
-	TemplateMethodPattern::TemplateMethodPattern::Run();
+	VisitorPattern::VisitorPattern::Run();
 }
